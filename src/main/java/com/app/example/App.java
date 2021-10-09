@@ -20,6 +20,6 @@ public class App extends SpringBootServletInitializer {
 
    @RequestMapping(value = "/")
    public String hello() {
-      return "<center style=\"color:Tomato\"><b>Hello All - This is my first web app created for Super League Devops Program</b></center>";
+      return "<center style=\"color:Tomato\"><b>Hello All - This web app is created for Super League Devops Program sprint 5 for running a web application inside tomcat with Docker and Jenkins</b></center>";
    }
 }
