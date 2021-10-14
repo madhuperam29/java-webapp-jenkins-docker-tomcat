@@ -1,8 +1,8 @@
 FROM tomcat:8.0
 
 LABEL maintainer="Madhu Peram"
-RUN  sudo cd /var/lib/jenkins/workspace/jenkins-docker-pipeline-web-application/
-ADD ./target/java-app.war /usr/local/tomcat/webapps/
+
+ADD ./target/java-app-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
